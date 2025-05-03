@@ -7,5 +7,6 @@ export default defineConfig({
   server: { 
     host: '0.0.0.0',
     port: process.env.PORT || 5173, // Use Render-assigned port if available
+    allowedHosts: ['doctorappointmentfrontend.onrender.com']
   }
 })
