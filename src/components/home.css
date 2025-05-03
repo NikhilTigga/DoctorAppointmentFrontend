@@ -1,0 +1,190 @@
+.heading p{
+    font-family: "Outfit";
+    font-weight: 600;
+    font-size: 63px;
+    line-height: 80px;
+    color:#FFFFFF ;
+    
+}
+
+.content-left-roundImages{
+    width: 481px;
+    height:85px;
+    
+    
+}
+.content-left-roundImages p{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color:#FFFFFF ;
+}
+.belowHeading{
+    display: flex;
+    justify-content: space-between;
+    
+    gap:10px;
+    width:648px;
+
+    
+}
+.rightContent{
+   width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.rightContent img{
+     /* Make it responsive */
+    width: 130%; /* Add a maximum width */
+    margin-right: 100px;
+    object-fit: contain; /* Ensure proper scaling */
+}
+
+button{
+    width: 240px;
+    height: 63px;
+    border-radius: 47px;
+    background: #FFFFFF;
+    border: none;
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+}
+.roundImages img{
+    width:55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.specialistHeading{
+    width: 75vh;
+}
+.specialistHeading #findHeading{
+    font-family: "Outfit";
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100px;
+    color:#1F2937 ;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+.specialistHeading #belowFindHeading{
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color:#4B5563 ;
+    margin-top: 0;
+    text-align: center;
+
+}
+.specialistList{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    font-family: "Outfit";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+
+    
+}
+.belowPoster{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color:#5F6FFF ;
+    border-radius: 12px;
+    font-family: "outfit";
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 90px;
+    color: #FFFFFF;
+}
+.leftContent{
+width: 70%;
+font-family: "outfit";
+font-weight: 400;
+font-size: 52px;
+line-height: 90px;
+color: #FFFFFF;
+margin-left: 10px;
+
+}
+.rightContentBelow{
+    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.footerContainer {
+   width: 45%;
+   font-family: "outfit";
+   padding: 11px 0px 0px 123px;
+   color: #4B5563;
+
+  
+   
+}
+.footerContainer p a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5563;
+   
+}
+
+.bookAppointment{
+    margin-left: 70px;
+    margin-top:  7vh;
+}
+@media (max-width: 639px) { /* Apply styles for mobile screens */
+    .bookAppointment {
+        margin-left: 3px;
+        margin-top: 3vh;
+        display: flex;
+        flex-direction: column;  /* Stack items vertically */
+        justify-content: center; /* Center items vertically */
+        align-items: center;      /* Center items horizontally */
+        text-align: center;  
+        
+        
+       
+    }
+    .heading{
+        
+        width: 80%;
+       
+
+    }
+
+    .heading p{
+        font-size:xx-large ;
+        line-height: 45px;
+    }
+    .belowHeading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 99%
+
+    }
+    .content-left-roundImages{
+        width: 100%;
+        height:auto;
+        
+        
+    }
+}

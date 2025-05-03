@@ -1,0 +1,30 @@
+
+.contactUsContainer{
+ 
+font-family: "Outfit";
+margin-bottom: 20vh;
+}
+.contactUsHeading{
+
+   text-align: center;
+}
+.contactUsHeading p{
+font-weight: 400;
+font-size: 30px;
+line-height: 100%;
+}
+.flexLeftContainer{
+    width: 70%;
+}
+.flexRightContainer{
+    width: 100%;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    align-items: flex-start;
+    gap: 50px;}
+
