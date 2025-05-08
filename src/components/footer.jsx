@@ -22,7 +22,7 @@ function Footer() {
         <div>
         <Wrapper>
         <div className="footerContainer">
-            <p> <a> <img src="../src/assets/images/logo-prescripto2.jpg" width={'40%'} alt="" /></a></p>
+            <p> <a> <img src="../src/assets/images/logo-prescripto3.jpg" width={'40%'} alt="" /></a></p>
             <p style={{ fontWeight: "400", fontSize: "18px", lineHeight: "30px" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eligendi, dolorum voluptate iste ipsum, velit ea sint sit, praesentium modi illum harum nihil rem labore quibusdam aperiam cupiditate explicabo eaque! <br /> <br /> <br /></p>
         </div>
         <div className="footerContainer">

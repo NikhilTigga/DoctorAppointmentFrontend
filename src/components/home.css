@@ -32,14 +32,16 @@
 .rightContent{
    width: 50%;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    
 
 }
 .rightContent img{
      /* Make it responsive */
-    width: 130%; /* Add a maximum width */
-    margin-right: 100px;
+     max-width: 100%; /* Add a maximum width */
+    /*margin-right: 100px;*/
+    height: 100%;
     object-fit: contain; /* Ensure proper scaling */
 }
 
@@ -100,7 +102,7 @@ button{
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    background-color:#5F6FFF ;
+    background-color:#357A7B ;
     border-radius: 12px;
     font-family: "outfit";
     font-weight: 700;

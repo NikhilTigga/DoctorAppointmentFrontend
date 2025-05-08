@@ -49,7 +49,7 @@ const NavBar=()=> {
     return (
         <>
             <TopNavbar>
-                <a> <img src="../src/assets/images/logo-prescripto2.jpg" alt="" width={'40%'} /></a>
+                <a> <img src="../src/assets/images/logo-prescripto3.jpg" alt="" width={'40%'} /></a>
                 <NavMenu className="hidden sm:block">
                     <NavLink className="hidden sm:block" to='/'>
                         Home
@@ -88,7 +88,7 @@ const NavBar=()=> {
                                 </div>
                             </div>
 
-                        </div> : <button onClick={() => navigate('/login')} style={{ background: "#5F6FFF", height: "54px", width: "195px", borderRadius: "47px", fontFamily: "Outfit", fontWeight: "400", fontSize: "18px", border: "none" }}>Get Started</button>
+                        </div> : <button onClick={() => navigate('/login')} style={{ background: "#B3C8C7", height: "54px", width: "195px", borderRadius: "47px", fontFamily: "Outfit", fontWeight: "400", fontSize: "18px", border: "none" }}>Get Started</button>
                     }
                     <img onClick={()=>setShowMenu(true)} className="w-6 md:hidden" src={assets.menu_icon} alt="menu_icon" />
                     {/* mobile menu */}

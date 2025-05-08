@@ -31,20 +31,16 @@ function Home() {
     return (
         <>
             <div className="homeContainer">
-                <div style={{display:"flex"}} className={`mx-auto mt-[5vh] h-full sm:w-[80%] sm:h-[500px] bg-[#5F6FFF] rounded-lg justify-between flex flex-col sm:flex-row  `}>
+                <div style={{display:"flex"}} className={`mx-auto mt-[5vh] h-full sm:w-[80%] sm:h-[500px] bg-[#357A7B] rounded-lg justify-between flex flex-col sm:flex-row  `}>
                     <div className="bookAppointment">
                         <div className="heading">
-                            <p>Book Appointment With Trusted Doctors</p>
+                            <p>Doctor Appointment Booking</p>
 
                         </div>
                         <div className="items-start belowHeading  " >
-                            <div className="roundImages flex ">
-                                <img src="../src/assets/images/Ellipse 581 (1).png" alt="img1" />
-                                <img src="../src/assets/images/Ellipse 582.png" alt="img2" style={{ marginLeft: "-10px" }} />
-                                <img src="../src/assets/images/image 87.png" alt="img3" style={{ marginLeft: "-10px" }} />
-                            </div>
+                            
                             <div className="content-left-roundImages">
-                                <p>Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free.</p>
+                                <p>Book your appointment with ease</p>
                             </div>
 
                         </div>
@@ -55,7 +51,7 @@ function Home() {
 
                     </div>
                     <div className="rightContent">
-                        <img src="../src/assets/images/doc-header-img.png" alt="DoctorImage" />
+                        <img src="../src/assets/images/headerDocPoster.png" alt="DoctorImage" />
                     </div>
 
 
@@ -63,16 +59,16 @@ function Home() {
 
                 <SpecialistContainer>
                     <div className="specialistHeading mt-10">
-                        <p id="findHeading">Find by Speciality</p>
-                        <p id="belowFindHeading">Simple browse through our extensive list of trusted doctors, schedule your appointment hassle-free.</p>
+                        <p id="findHeading">Search by Speciality</p>
+                        <p id="belowFindHeading">Quickly find the right specialist from our trusted network and book your appointment with ease.</p>
                     </div>
                     <div className="specialistList mt-20">
                         <Link to={`/doctors/${`Gynecologist`}`} className="specilaist1 hover:translate-y-[-10px] transition-all duration-500">
-                            <img src="../src/assets/images/General_physician.svg" alt="General physician" />
+                            <img src="../src/assets/images/General_physician2.svg" alt="General physician" />
                             <p>General physician</p>
                         </Link>
                         <Link to={`/doctors/${`Gynecologist`}`} className="specilaist2 hover:translate-y-[-10px] transition-all duration-500">
-                            <img src="../src/assets/images/Gynecologist.svg" alt="Gynecologist" />
+                            <img src="../src/assets/images/Gynecologist2.svg" alt="Gynecologist" />
                             <p>Gynecologist</p>
 
                         </Link>
@@ -122,7 +118,7 @@ function Home() {
                     </div>
                     <div className="belowPoster ">
                         <div className="leftContent">
-                            <p style={{ padding: "0", margin: "0" }}>Book Appointment with 100+ Trusted Doctors</p>
+                            <p style={{ padding: "0", margin: "0" }}>Schedule Your Visit with Over 100 Trusted Doctors</p>
                             <div className="button">
                                 <button onClick={()=>{navigate('/login');scrollTo(0,0)}} className="bg-white text-sm sm:text-base text-gray-600 px-8 py-3 my-6 hover:scale-105 transition-all">Create account</button>
                             </div>
@@ -130,7 +126,7 @@ function Home() {
                         </div>
 
                         <div className="rightContentBelow">
-                            <img src="../src/assets/images/appointment-doc-img.png" alt="appointment-doc-img" width={"100%"} />
+                            <img src="../src/assets/images/appointment-doc-img2.png" alt="appointment-doc-img" width={"100%"} />
                         </div>
                     </div>
 

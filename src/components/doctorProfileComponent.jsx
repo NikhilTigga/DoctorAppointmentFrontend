@@ -13,7 +13,7 @@ p{
 function DoctorProfileComponent(props) {
     return (
         <div className="container" style={{ width: "273.88px", height: "390px", border: "1px solid #C9D8FF", borderRadius: "12px ",padding:"5px" }}>
-            <div className="DoctorProfileImage" style={{ backgroundColor: "#EAEFFF", display: "flex", justifyContent: "center", alignItems: "flex-end", objectFit: "contain", borderTopLeftRadius: "12px", borderTopRightRadius: "12px" }}>
+            <div className="DoctorProfileImage" style={{ backgroundColor: "#B3C8C7", display: "flex", justifyContent: "center", alignItems: "flex-end", objectFit: "contain", borderTopLeftRadius: "12px", borderTopRightRadius: "12px" }}>
                 <img src={props.image} alt="" />
             </div>
             <DoctorDetails>
